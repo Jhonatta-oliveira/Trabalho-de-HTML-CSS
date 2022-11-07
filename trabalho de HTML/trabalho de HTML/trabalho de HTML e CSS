@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabalho do Adeilso</title>
+    <link rel="stylesheet" href="trabalhostyle.css">
+</head>
+<body>
+   <header>
+    <div class="usuário">
+        <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/2275847-avatar-masculino-perfil-icone-de-homem-caucasiano-sorridente-vetor.jpg" alt="">
+    </div>
+    <nav class="navegação">
+        <ul>
+            <li><a href="#SOBRE">SOBRE</a></li>
+            <Br>
+            <li><a href="#CONHECIMENTOS">CONHECIMENTOS</a></li>
+            </Br>
+            <li><a href="#OBJETIVOS">OBJETIVOS</a></li>
+        </ul>
+    </nav>
+   </header>
+   <div id="menu" class="fas fa-bars"></div>
+   <section class="home" id="home">
+    <h1>JOÃO <span> DA SILVA</span></h1>
+    <h3>RUA PRINCIPAL 345, CAMPO BOM - RS<span> JOÃO@SILVA.COM</span></h3>
+    <p>Eu sou uma pessoa muito divertida e objetiva sei o que quero da vida. adoro tecnologia e progamação.</p>
+   </section>
+</body>
+</html>
+*{
+    font-family: 'hunito',sans-serif;
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear
+}
+html{
+    font-size:62.5%;
+    overflow-x: hidden;
+}
+body{
+    background: rgb(235, 231, 228) ;
+    overflow-x: hidden;
+    padding-left: 35rem;
+}
+section{
+    min-height: 100vh;
+    padding: 1rem;
+}
+header{
+    position: fixed;
+    top: 0;left: 0;
+    z-index: 1000 ;
+    height: 100%;
+    width: 35rem;
+    background:rgb(207, 101, 30) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+header .usuário img{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    border: 5px solid rgb(187,14,14)
+}
+header .navegação{
+    width: 100%;
+}
+header .navegação ul{
+    list-style: none;
+    padding: 1rem 3rem;
+}
+header .navegação ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background:rgb(207, 101, 30);
+    color:#fff;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+}
+.home h3{
+    font-size: 4rem;
+    color: aqua;
+}
+.home h1{
+    font-size: 8rem;
+    color: rgb(0, 0, 0);
+}
+.home h1 span{
+    font-size: 8rem;
+    color: rgb(187, 14, 14);
+}
+.home h2 {
+    font-size: 8rem;
+    color: rgb(57, 216, 129);
+}
+ .home h3{
+    font-size: 2rem;
+    color: black;
+ }
+ .home h3 span{ 
+    font-size: 2rem;
+    color: rgb(187, 14, 14);
+ }
+ .home p{
+    font-size: 1rem;
+    color: rgb(190, 171, 171);
+    padding: 1rem 0;
+ }
